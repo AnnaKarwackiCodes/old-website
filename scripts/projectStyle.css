@@ -7,6 +7,7 @@ body{
 	background-position:center;
 	background-attachment: fixed;
 	height: 100%;
+    font-family: 'Mina', sans-serif;
 }
 #sideBarMain{
 	width: 15%;
@@ -15,20 +16,20 @@ body{
 	position: fixed;
 	float:left;
 }
-#side1{
+.side1{
 	background-color:#00bece;
 	padding-bottom:100%;
 	position: relative;	 
 	border-top-right-radius: 90px 70px;
 	height: 100%;
 }
-#side2{
+.side2{
 	background-color:#00a4b2;	
 	position: relative;
 	border-top-right-radius: 90px 70px;
 	height: 100%;
 }
-#side3{
+.side3{
 	background-color:#00bece;
 	position: relative;
 	border-top-right-radius: 80px 40px;
