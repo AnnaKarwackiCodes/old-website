@@ -170,13 +170,10 @@ a:active, a:visited{
 }
 #me{
 	width:20%;
-	margin-left: 40%;
+	margin-left: 25%;
 	margin-right: 40%;
 }
-#me img{
-	width: 100%;
-	height: auto;
-}
+
 .project img{
     width:50%;
     height:50%;
