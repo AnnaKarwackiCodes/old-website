@@ -94,15 +94,21 @@ body{
 	margin-right: 20%;
 	height: auto;	
 }
-#buttons li{
+#buttons2{
+	width:80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: auto;	
+}
+#buttons li, #buttons2li{
 	display: inline;
 }
-#buttons a{
+#buttons a, #buttons2 a{
 	background-color: #bcfdff;
 	padding: 10px;
 	box-shadow: 5px 5px 5px grey;
 }
-#buttons a:hover{
+#buttons a,#buttons2 a:hover{
 	box-shadow: 5px 5px 5px black;
 	color: black;
 }
