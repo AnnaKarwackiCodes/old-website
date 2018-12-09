@@ -15,6 +15,7 @@ body{
 	text-align: center;
 	position: fixed;
 	float:left;
+    font-size: 13px;
 }
 .side1{
 	background-color:#00bece;
@@ -56,6 +57,29 @@ body{
 	background-color: #00b0bf;
     padding-bottom: 20px;
 }
+.innerBody{
+	width:70%;
+	background-color: #C0D1DC;
+    padding-bottom: .5%;
+    padding-top: .5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.innerBody p{
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+}
+#bottom{
+    background-color: #C0D1DC;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#aboutme{
+  margin-top: 1%;
+
+}
 #featured{
 	float: left;
 	margin-bottom: 15px;
@@ -73,10 +97,10 @@ body{
 	text-align: left;
 }
 #body li{
-	display:inline;
 	font-size:1.5em;
 	padding-left:5%;
 	padding-right:5%;
+    list-style-type: none;
 }
 #footer{
 	font-size:1.5em;
@@ -93,14 +117,14 @@ body{
 	margin-left: 20%;
 	margin-right: 20%;
 	height: auto;	
+    font-size: 13px;
 }
 #buttons2{
-	width:80%;
-	margin-left: 10%;
-	margin-right: 10%;
-	height: auto;	
+	width:90%;
+	height: auto;
+    font-size: 13px;
 }
-#buttons li, #buttons2li{
+#buttons li, #buttons2 li{
 	display: inline;
 }
 #buttons a, #buttons2 a{
@@ -139,11 +163,21 @@ a{
 	color:white;
 	
 }
+#projectInfo{
+    display: block !important;
+    text-align: left;
+}
+#projectInfo li{
+    list-style-type: circle;
+}
+#projectInfo ul li{
+    font-size: 17px;
+}
 a:active, a:visited{
 	color: black;
 }
 #body p a:hover{
-	color:white;
+	color:gray;
 }
 #pic{
 	float: left;
@@ -151,13 +185,6 @@ a:active, a:visited{
 	width: 70%;
 	margin-left: 15%;
 	margin-right: 15%;
-}
-#pic img{
-	float: left;
-	width: 30%;
-	height: auto;
-	margin-left: 10px;
-	margin-right: 10px;
 }
 #single{
 	width:70%;
@@ -169,17 +196,16 @@ a:active, a:visited{
 	height: auto;
 }
 #me{
-	width:20%;
-	margin-left: 25%;
-	margin-right: 40%;
+    text-align: center;
+	margin-left: 10%;
+    margin-right: 10%;
 }
-
 .project img{
     width:50%;
     height:50%;
 }
 #pic img:hover{
-	transform: scale(1.3);
+	transform: scale(2);
 }
 .project img:hover{
     transform: scale(1.1);
